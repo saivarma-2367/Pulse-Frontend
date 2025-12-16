@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import "./App.css";
 import Login from "./pages/NewLogin";
 import Register from "./pages/Register";
+import DashBoard from "./pages/DashBoard";
 
 function App() {
   useEffect(() => {
@@ -13,9 +14,7 @@ function App() {
   return (
     <div className="app">
       <h1>Pulse</h1>
-      <p>Your work. One clear focus.</p>
-      <Register />
-      <Login />
+      <DashBoard />
     </div>
   );
 }

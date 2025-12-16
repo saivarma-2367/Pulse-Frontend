@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Auth.css';
+import '../styles/Auth.css';
 
 function NewLogin() {
     const [email,setEmail]=useState("");
@@ -18,6 +18,7 @@ function NewLogin() {
 
   if (res.ok) {
     localStorage.setItem('token', data.token);
+    console.log(data.token);
     alert('Login Successful');
   } else {
     alert(data.message || 'Login failed');

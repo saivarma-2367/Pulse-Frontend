@@ -1,0 +1,43 @@
+.dashboard {
+  padding: 24px;
+}
+
+.task-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 8px;
+}
+
+.task-columns {
+  display: flex;
+  gap: 16px;
+}
+
+.column {
+  flex: 1;
+  background: #f4f6f8;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.task {
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions button {
+  margin-left: 4px;
+}
+
+.delete {
+  color: red;
+}
